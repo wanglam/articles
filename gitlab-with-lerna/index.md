@@ -87,10 +87,10 @@ npx lerna init
 ## 添加 package1
 
 ```
-npx lerna create @viowan/package1
+npx lerna create @foo/package1
 ```
 
-这里使用`viowan` 作为 package1 的 scope。在 gitlab 中 scope 不能为自定义的字符串， 一般使用所项目的 root namespace 作为 scope 的值，根据 NPM 包的命名规范，scope 应该使用全小写的值。
+这里使用`foo` 作为 package1 的 scope。在 gitlab 中 scope 不能为自定义的字符串， 一般使用所项目的 root namespace 作为 scope 的值，根据 NPM 包的命名规范，scope 应该使用全小写的值。
 
 ## 将包裹发布到 gitlab NPM registry
 
